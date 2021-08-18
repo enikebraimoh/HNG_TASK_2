@@ -6,10 +6,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import androidx.core.widget.addTextChangedListener
 import com.zuri.hng.i4g.hng_task_2.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
 
     lateinit var binding : ActivityMainBinding
 
@@ -43,7 +43,6 @@ class MainActivity : AppCompatActivity() {
             val i = Intent(Intent.ACTION_VIEW, Uri.parse("https://training.zuri.team"))
             startActivity(i)
         }
-
         setContentView(binding.root)
     }
 }

@@ -1,6 +1,10 @@
+package com.zuri.hng.i4g.hng_task_2
+import kotlin.io.println
 
 class Prints {
-    fun main{
-        println("Enike Richard Braimoh")
+    companion object {
+        fun prints (){
+            println("Enike Richard Braimoh")
+        }
     }
 }
